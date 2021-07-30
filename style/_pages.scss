@@ -1,0 +1,138 @@
+$shadow: 0 5px 10px rgba(154, 160, 185, 0.1);
+
+h1 {
+  font-size: 10vh;
+}
+
+h2 {
+  font-size: 5vh;
+}
+
+.text-content {
+  font-size: 25px;
+}
+
+.hl {
+  color: $hl;
+}
+
+section {
+  display: none;
+
+  height: 100vh;
+  width: 80vw;
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  scroll-snap-align: start;
+}
+
+#home {
+  display: none;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  z-index: 1;
+}
+
+#about {
+  flex-direction: column;
+}
+
+#awards {
+}
+
+#works {
+  flex-direction: column;
+}
+
+//keeps all the work card
+.work-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-right: 10%;
+}
+
+//project card
+.card {
+  display: flex;
+  flex-direction: column;
+
+  transition: all 1s;
+  margin: 2%;
+  padding: 5%;
+
+  border-radius: 15px;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow: $shadow;
+}
+
+.card-img {
+  height: 60%;
+  width: 80%;
+}
+
+.card-heading {
+  margin-bottom: 5%;
+  font-weight: 700;
+}
+
+.card:hover {
+  border: $sec 1px solid;
+}
+
+#skills {
+  flex-direction: column;
+}
+
+.skillImg {
+  height: 112px;
+  width: 112px;
+  margin-right: 5vh;
+  margin-bottom: 3vh;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  box-shadow: $shadow;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.skillImg:hover {
+  border: 1px solid $sec;
+}
+
+#contact {
+  flex-direction: column;
+}
+
+#contactWrapper {
+  display: flex;
+}
+
+.contactCard {
+  padding: 10px;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: $shadow;
+}
+
+.contactCardIcon {
+  height: 50%;
+  width: 50%;
+}
+
+.contactCardHeading {
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+<svg width="150" height="100" viewBox="0 0 150 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mail" clip-path="url(#clip0)">
+<rect id="letter" x="16.5" y="9.5" width="120" height="79" rx="4.5" stroke="#202124" stroke-width="5"/>
+<path id="close" d="M74.0854 55.6236L19.5814 17.6511C15.9686 15.1341 17.7472 9.46215 22.1503 9.4588L131.101 9.37591C135.504 9.37256 137.291 15.0418 133.682 17.5643L79.2358 55.6197C77.6895 56.7005 75.6333 56.702 74.0854 55.6236Z" stroke="#202124" stroke-width="5"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="150" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>

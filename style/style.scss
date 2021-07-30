@@ -1,0 +1,20 @@
+:root {
+  --hl: #047dffcb;
+  --sec: hsla(0, 0%, 73%, 0.87);
+  --bg: #202124;
+  --transBg: rgba(0, 0, 0, 0.8);
+  --font: 10%;
+  --clickable: red;
+}
+
+$clickable: var(--clickable);
+$hl: var(--hl);
+$sec: var(--sec);
+$bg: var(--bg);
+$transBg: var(--transBg);
+$font: var(--font);
+$no-of-projects: 7;
+
+@import "./pages";
+@import "./animation";
+@import "./main";

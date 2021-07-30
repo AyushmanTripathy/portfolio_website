@@ -1,0 +1,12 @@
+<svg width="150" height="100" viewBox="0 0 150 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="theme">
+<ellipse id="pallete" cx="77.5" cy="50.5" rx="61.5" ry="45.5" fill="#202124"/>
+<g id="transparent">
+<ellipse id="Ellipse 5" cx="37.5" cy="42.5" rx="9.5" ry="7.5" fill="transparent"/>
+<ellipse id="Ellipse 4" cx="59.5" cy="22.5" rx="9.5" ry="7.5" fill="transparent"/>
+<ellipse id="Ellipse 6" cx="49.5" cy="69.5" rx="9.5" ry="7.5" fill="transparent"/>
+<ellipse id="Ellipse 3" cx="90.5" cy="22.5" rx="9.5" ry="7.5" fill="transparent"/>
+<ellipse id="Ellipse 2" cx="110.5" cy="72.5" rx="35.5" ry="23.5" fill="transparent"/>
+</g>
+</g>
+</svg>

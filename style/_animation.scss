@@ -1,0 +1,125 @@
+//CURSOR
+
+.cursor {
+  display: none;
+  position: absolute;
+
+  height: 25px;
+  width: 25px;
+
+  z-index: -1;
+  border: $sec 1px solid;
+  border-radius: 50%;
+}
+
+#innerCursor {
+  transition: all 300ms;
+}
+#outerCursor {
+  height: 35px;
+  width: 35px;
+  transition: all 400ms;
+}
+
+//TYPE WRITER
+#typewriter {
+  font-size: 50px;
+  color: $hl;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+  width: max-content;
+
+  position: absolute;
+}
+
+#tywrapper {
+  display: inline-block;
+}
+
+#text {
+  position: relative;
+  overflow: hidden;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: fit-content;
+  white-space: nowrap;
+  border-right: $sec 1px solid;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes blinking {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: $sec;
+  }
+}
+
+@keyframes lastType {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+//LOADING SCREEN
+
+#loadingScreen {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $bg;
+
+  z-index: 20;
+  justify-content: center;
+  align-items: center;
+}
+
+#signature {
+  height: 100%;
+  width: 100%;
+
+  $path-length: 315;
+  stroke-dasharray: $path-length;
+  stroke-dashoffset: $path-length;
+
+  animation: 3.5s sign ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

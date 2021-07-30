@@ -1,0 +1,12 @@
+{
+  "javascript": {
+    "name": "JavaScript",
+    "iconSrc": "./skills/javascript.svg",
+    "des": "JS is the best language in the world"
+  },
+  "sass": {
+    "name": "Sass",
+    "iconSrc": "./skills/sass.svg",
+    "des": "Sass is a preprocessor scripting language that is compiled into CSS."
+  }
+}
