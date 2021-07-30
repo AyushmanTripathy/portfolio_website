@@ -25,11 +25,11 @@ function start() {
   $("#home").fadeIn("slow");
   nameLoop();
 
-  getData("./data.json");
+  getData("../src/data.json");
 }
 
 function getData(path) {
-  fetch("./data.json")
+  fetch(path)
     .then((response) => {
       if (!response.ok) return console.error("fetch falied");
       return response.json();
