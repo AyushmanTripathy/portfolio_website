@@ -25,7 +25,8 @@ function start() {
   $("#home").fadeIn("slow");
   nameLoop();
 
-  getData("../src/data.json");
+  getData("https://secure-ravine-32835.herokuapp.com/get/data");
+  //getData("http://localhost:8080/get/data");
 }
 
 function getData(path) {
@@ -47,7 +48,7 @@ function showMore(name) {
   const temp = data[name];
   if (!temp) return console.error(`${name} is not defined in data`);
   $("#showContent").text(temp.des);
-  $("#showIcon").attr("src", temp.iconSrc);
+  $("#showIcon").attr("src", `./src/imgs/skills/${name}.svg`);
   $("#showMore").fadeToggle("slow").css("display", "flex");
 }
 
