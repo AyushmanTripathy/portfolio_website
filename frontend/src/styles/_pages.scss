@@ -88,9 +88,13 @@ section {
   flex-direction: column;
 }
 
+.skillGrp {
+  margin-left: 0;
+}
+
 .skillImg {
-  height: 112px;
-  width: 112px;
+  height: 80px;
+  width: 80px;
   margin-right: 5vh;
   margin-bottom: 3vh;
 
@@ -103,7 +107,6 @@ section {
 }
 
 .skillImg:hover {
-  border: 1px solid $sec;
 }
 
 #contact {
