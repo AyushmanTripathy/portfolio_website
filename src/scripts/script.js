@@ -25,15 +25,17 @@ function start() {
   $("#home").fadeIn("slow");
   nameLoop();
 
-  getData("https://secure-ravine-32835.herokuapp.com/get/data");
+  getData('./src/data.json');
+  //getData("https://secure-ravine-32835.herokuapp.com/get/data");
   //getData("http://localhost:8080/get/data");
 }
 
 function getData(path) {
   fetch(path)
     .then((response) => {
-      if (!response.ok) return console.error("fetch falied");
-      return response.json();
+      if (!response.ok) return console.log("fetch falied",response);
+      console.log(response);
+      return response;
     })
     .then((response) => {
       data = response;
