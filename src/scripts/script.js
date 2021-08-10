@@ -92,3 +92,14 @@ function copyText(text) {
   if (!navigator.clipboard) return alert("copy error");
   navigator.clipboard.writeText(text);
 }
+
+function showWork(item) {
+  switch (item) {
+    case "quickwiki":
+      window.open("");
+      break;
+    case "sorting_visualiser":
+      window.open("https://ayushmantripathy.github.io/sorting_visualiser/");
+      break;
+  }
+}

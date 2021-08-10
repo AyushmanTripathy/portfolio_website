@@ -44,12 +44,12 @@ section {
 
 #works {
   flex-direction: column;
+  height: 200vh;
 }
 
 //keeps all the work card
 .work-wrapper {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
   margin-right: 10%;
 }
 
@@ -73,6 +73,9 @@ section {
 .card-img {
   height: 60%;
   width: 80%;
+  aspect-ratio: 2 / 1;
+  border-radius: 5px;
+  box-shadow: $shadow;
 }
 
 .card-heading {
@@ -80,12 +83,13 @@ section {
   font-weight: 700;
 }
 
-.card:hover {
-  border: $sec 1px solid;
+.card-des {
+  text-align: center;
 }
 
 #skills {
   flex-direction: column;
+  height: 100vh;
 }
 
 .skillGrp {

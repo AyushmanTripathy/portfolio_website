@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/style.css" />
-    <title>3d</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;700&display=swap");
-    </style>
+    <title>AT</title>
   </head>
   <body>
     <!--CURSOR-->
@@ -238,6 +235,7 @@
 
     <!--SKILL SET-->
     <section id="skills">
+      <h2>My Skill Set</h2>
       <h3>Languages</h3>
       <section class="skillGrp">
         <img
@@ -287,14 +285,6 @@
           alt="node-js"
           name="node-js"
         />
-
-        <img
-          class="skillImg"
-          onclick="showMore(this.name)"
-          src="./src/imgs/skills/puppeteer.svg"
-          alt="puppeteer"
-          name="puppeteer"
-        />
       </section>
 
       <h3>Libraries</h3>
@@ -326,6 +316,13 @@
           src="./src/imgs/skills/chartjs.svg"
           alt="chartjs"
           name="chartjs"
+        />
+        <img
+          class="skillImg"
+          onclick="showMore(this.name)"
+          src="./src/imgs/skills/puppeteer.svg"
+          alt="puppeteer"
+          name="puppeteer"
         />
       </section>
 
@@ -366,43 +363,29 @@
     <section id="works">
       <h2>Best of My Works</h2>
       <div class="work-wrapper">
-        <div class="card">
-          <header class="card-heading">Snake Ai</header>
+        <div class="card" onclick="showWork('quickwiki')">
+          <header class="card-heading">Quickwiki</header>
           <img
-            src="./src/imgs/works/snake-ai.png"
+            src="./src/imgs/works/quickwiki.png"
+            class="card-img"
+            alt="img for projects"
+          />
+          <p class="card-des">A chrome extension to look up wikipedia</p>
+        </div>
+        <div class="card" onclick="showWork('sorting_visualiser')">
+          <header class="card-heading">Sorting visualiser</header>
+          <img
+            src="./src/imgs/works/sorting_visualiser.png"
             class="card-img"
             alt="img for projects"
             srcset=""
           />
-          <p class="card-des">
-            Machine learning <br />
-            Hamilton Cycle
-          </p>
+          <p class="card-des">A visualisation for all sorting algorithms</p>
         </div>
-        <div class="card">
-          <header class="card-heading">Quick Wiki</header>
-          <img
-            src="./src/imgs/works/quick-wiki.png"
-            class="card-img"
-            alt="img for projects"
-            srcset=""
-          />
-          <p class="card-des">RESTful Apis <br />Chrome Extensions</p>
-        </div>
-        <div class="card">
+        <div class="card" onclick="showWork('')">
           <header class="card-heading">Project name</header>
           <img src="" class="card-img" alt="img for projects" srcset="" />
-          <p class="card-des">des for the card</p>
-        </div>
-        <div class="card">
-          <header class="card-heading">Project name</header>
-          <img src="" class="card-img" alt="img for projects" srcset="" />
-          <p class="card-des">des for the card</p>
-        </div>
-        <div class="card">
-          <header class="card-heading">Project name</header>
-          <img src="" class="card-img" alt="img for projects" srcset="" />
-          <p class="card-des">des for the card</p>
+          <p class="card-des">des for this card</p>
         </div>
       </div>
     </section>
