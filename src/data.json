@@ -1,12 +1,74 @@
 {
   "javascript": {
     "name": "JavaScript",
-    "iconSrc": "./src/imgs/skills/javascript.svg",
     "des": "JS is the best language in the world"
   },
   "sass": {
     "name": "Sass",
-    "iconSrc": "./src/imgs/skills/sass.svg",
     "des": "Sass is a preprocessor scripting language that is compiled into CSS."
+  },
+  "html": {
+    "name": "HTML",
+    "des": "The HyperText Markup Language"
+  },
+  "css": {
+    "name": "Css",
+    "des": "Cascading Style Sheets is a style sheet language."
+  },
+  "socket": {
+    "name": "Socket IO",
+    "des": "Socket.IO is a JavaScript library for realtime web applications that enables realtime, bi-directional communication."
+  },
+  "expressjs": {
+    "name": "Express JS",
+    "des": "Express.js, or simply Express, is a back end web application framework for Node.js. "
+  },
+  "jquery": {
+    "name": "JQuery",
+    "des": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+  },
+  "chartjs": {
+    "name": "Chart JS",
+    "des": "Chart.js is a free open-source JavaScript library for data visualization."
+  },
+  "git": {
+    "name": "Git",
+    "des": "The version control system we all love."
+  },
+  "figma": {
+    "name": "Figma",
+    "des": "Figma is a vector graphics editor ,which is primarily web-based."
+  },
+  "java": {
+    "name": "Java",
+    "des": "Java is a high-level, class-based, object-oriented programming language."
+  },
+  "bash": {
+    "name": "Bash",
+    "des": "Bash is a Unix shell"
+  },
+  "node-js": {
+    "name": "Node Js",
+    "des": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment."
+  },
+  "vscode": {
+    "name": "VS code",
+    "des": "Visual Studio Code is a source-code editor."
+  },
+  "npm": {
+    "name": "NPM",
+    "des": "npm is a package manager for the JavaScript programming language."
+  },
+  "tensorflow": {
+    "name": "Tensorflow",
+    "des": "TensorFlow is a free and open-source software library for machine learning."
+  },
+  "vim": {
+    "name": "Vim",
+    "des": "Vim is a free and open-source, screen-based text editor program for Unix."
+  },
+  "puppeteer": {
+    "name": "Puppeteer",
+    "des": "Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol."
   }
 }

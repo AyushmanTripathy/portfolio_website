@@ -25,7 +25,7 @@ function start() {
   $("#home").fadeIn("slow");
   nameLoop();
 
-  getData('./src/data.json');
+  getData("./src/data.json");
   //getData("https://secure-ravine-32835.herokuapp.com/get/data");
   //getData("http://localhost:8080/get/data");
 }
@@ -33,12 +33,12 @@ function start() {
 function getData(path) {
   fetch(path)
     .then((response) => {
-      if (!response.ok) return console.log("fetch falied",response);
-      console.log(response);
-      return response;
+      if (!response.ok) return console.log("fetch falied", response);
+      return response.json();
     })
     .then((response) => {
       data = response;
+      console.log(data);
     });
 }
 
