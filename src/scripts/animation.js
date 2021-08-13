@@ -1,4 +1,4 @@
-const names = ["Web Developer.", "ML Engineer."];
+const names = ["Web Developer."];
 const len = 3;
 
 function nameLoop() {
