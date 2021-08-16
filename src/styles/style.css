@@ -368,6 +368,13 @@ body {
   transition: all ease;
 }
 
+#particles-js {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 #showMore {
   display: none;
   position: fixed;

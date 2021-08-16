@@ -19,6 +19,16 @@ body {
   transition: all ease;
 }
 
+//Particle.js background
+#particles-js {
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+
+  z-index: -1;
+}
+
 //SHOW MORE POPUP
 #showMore {
   display: none;

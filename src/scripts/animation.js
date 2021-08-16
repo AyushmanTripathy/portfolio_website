@@ -1,5 +1,5 @@
 const names = ["Web Developer."];
-const len = 3;
+const len = 4;
 
 function nameLoop() {
   let i = 0;
@@ -52,3 +52,7 @@ function cursorEffect() {
       .css("left", `${event.pageX - 20}px`);
   });
 }
+
+particlesJS.load("particles-js", "./src/scripts/particle.json", () => {
+  console.log();
+});

@@ -38,7 +38,6 @@ function getData(path) {
     })
     .then((response) => {
       data = response;
-      console.log(data);
     });
 }
 
