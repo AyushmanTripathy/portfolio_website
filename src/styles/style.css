@@ -53,13 +53,16 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 200vh;
+  height: 120vh;
 }
 
 .work-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
   margin-right: 10%;
 }
 
@@ -110,7 +113,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  height: 150vh;
 }
 
 .skillGrp {
@@ -313,14 +316,20 @@ section {
 }
 
 @-webkit-keyframes sign {
-  to {
-    stroke-dashoffset: 0;
+  50% {
+    stroke-dashoffset: calc($path-length/2);
+  }
+  100% {
+    stroke-dashoffset: 0%;
   }
 }
 
 @keyframes sign {
-  to {
-    stroke-dashoffset: 0;
+  50% {
+    stroke-dashoffset: calc($path-length/2);
+  }
+  100% {
+    stroke-dashoffset: 0%;
   }
 }
 

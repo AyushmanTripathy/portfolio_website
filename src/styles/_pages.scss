@@ -44,12 +44,14 @@ section {
 
 #works {
   flex-direction: column;
-  height: 200vh;
+  height: 120vh;
 }
 
 //keeps all the work card
 .work-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   margin-right: 10%;
 }
 
@@ -89,7 +91,7 @@ section {
 
 #skills {
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
 }
 
 .skillGrp {
